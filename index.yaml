@@ -5,7 +5,7 @@ entries:
       category: Analytics
     apiVersion: v1
     appVersion: 7.8.1
-    created: "2021-12-07T09:20:50.3484678+08:00"
+    created: "2021-12-07T09:53:48.5279466+08:00"
     dependencies:
     - condition: global.kibanaEnabled
       name: kibana
@@ -29,17 +29,27 @@ entries:
   minio:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2021-12-07T09:20:50.350209+08:00"
+    created: "2021-12-07T09:53:48.5306124+08:00"
     description: minio
     digest: 9c0779255a72546f664a506777c24ac46cceba34694ed0b8481892127fed86bb
     name: minio
     urls:
     - https://it00021hot.github.io/mogu-chart/minio-1.0.0.tgz
     version: 1.0.0
+  mogu-admin:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2021-12-07T09:53:48.5311331+08:00"
+    description: mogu-admin for Kubernetes
+    digest: 301ba72e46a3da1ffb391669c7faa05024a32ac054813deadcb83bc48c709849
+    name: mogu-admin
+    urls:
+    - https://it00021hot.github.io/mogu-chart/mogu-admin-1.0.0.tgz
+    version: 1.0.0
   mysql:
   - apiVersion: v1
     appVersion: 5.7.23
-    created: "2021-12-07T09:20:50.3507168+08:00"
+    created: "2021-12-07T09:53:48.5337456+08:00"
     description: mysql
     digest: 5a154580d87b24faad99d04b36b54b64968d9f76106466a60b80ed52ff1cef2d
     icon: https://labs.mysql.com/common/logos/mysql-logo.svg
@@ -50,7 +60,7 @@ entries:
   nacos:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-12-07T09:20:50.3512569+08:00"
+    created: "2021-12-07T09:53:48.5422457+08:00"
     description: A Helm chart for Kubernetes
     digest: 37aefb8c6c3d006183da4aa4516df26d76a8e512cf5ac5f7b0dac2897409e852
     maintainers:
@@ -62,7 +72,7 @@ entries:
   nfs-client-provisioner:
   - apiVersion: v1
     appVersion: v3.1.0-k8s1.11
-    created: "2021-12-07T09:20:50.3517951+08:00"
+    created: "2021-12-07T09:53:48.5432478+08:00"
     description: nfs-client-provisioner for Kubernestes
     digest: 9eb2e3a4a734de9318b11337b75318f32014a0e098504d469237077f3b106e84
     name: nfs-client-provisioner
@@ -74,7 +84,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 3.8.9
-    created: "2021-12-07T09:20:50.3546096+08:00"
+    created: "2021-12-07T09:53:48.5560122+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -103,7 +113,7 @@ entries:
   redis:
   - apiVersion: v1
     appVersion: 0.2.6
-    created: "2021-12-07T09:20:50.3551787+08:00"
+    created: "2021-12-07T09:53:48.5585734+08:00"
     description: redis
     digest: 96a15550166376f93dcac5956491452b979fbc5a6a1ca925dbd45f77b7a4577f
     name: redis
@@ -113,7 +123,7 @@ entries:
   sentinel:
   - apiVersion: v1
     appVersion: 1.8.1
-    created: "2021-12-07T09:20:50.355749+08:00"
+    created: "2021-12-07T09:53:48.560981+08:00"
     description: Sentinel for Kubernetes
     digest: 06ddcc1511acd5311f3ff40e822f3f5a996d3ca8340842a44d7dc44b705ffd45
     name: sentinel
@@ -123,11 +133,11 @@ entries:
   zipkin:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2021-12-07T09:20:50.3562552+08:00"
+    created: "2021-12-07T09:53:48.5630463+08:00"
     description: A Helm chart for Kubernetes
     digest: 92621aacc4d7d046ed644c3fe3507c282a8dd195f1d5ca957e51c7536c2944a3
     name: zipkin
     urls:
     - https://it00021hot.github.io/mogu-chart/zipkin-1.0.0.tgz
     version: 1.0.0
-generated: "2021-12-07T09:20:50.3397233+08:00"
+generated: "2021-12-07T09:53:48.5154348+08:00"
